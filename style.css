@@ -733,6 +733,15 @@ a img.aligncenter {
 	opacity: 1;
 }
 
+@media (max-width: 540px) {
+    .box-slider .carousel-control-prev{
+        display: none;
+    }
+    .box-slider .carousel-control-next{
+        display: none;
+    }
+}
+
 .first-section .big-tagline a{
 	background: none;
 	position: relative;
