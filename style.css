@@ -3564,6 +3564,14 @@ blockquote.default {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 540px) {
+    .blog-author {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .author-bio {
     display: block;
     float: left;
