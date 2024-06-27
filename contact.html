@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Site Metas -->
+        <title>TennisPros</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <!-- Site Icons -->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- ALL VERSION CSS -->
+        <link rel="stylesheet" href="css/versions.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom.css" />
+
+        <!-- Modernizer for Portfolio -->
+        <script src="js/modernizer.js"></script>
+    </head>
+
+    <body class="host_version">
+        <!-- LOADER -->
+        <div id="preloader">
+            <div class="loader-container">
+                <div class="progress-br float shadow">
+                    <div class="progress__item"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END LOADER -->
+
+        <!-- Start header -->
+        <header class="top-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <h2 style="color: #eea412">TennisPros</h2>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbars-host"
+                        aria-controls="navbars-rs-food"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars-host">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html"
+                                    >Startseite</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"
+                                    >Über uns</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="dropdown-a"
+                                    data-toggle="dropdown"
+                                    >Seiten
+                                </a>
+                                <div
+                                    class="dropdown-menu"
+                                    aria-labelledby="dropdown-a"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        href="locations.html"
+                                        >Standorte</a
+                                    >
+                                    <a
+                                        class="dropdown-item"
+                                        href="achivements.html"
+                                        >Erfolge</a
+                                    >
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pricing.html"
+                                    >Preise</a
+                                >
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html"
+                                    >Kontakt</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End header -->
+
+        <div class="all-title-box">
+            <div class="container text-center">
+                <h1>Kontakt</h1>
+            </div>
+        </div>
+
+        <div id="contact" class="section wb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Brauchen Sie Hilfe? Natürlich sind wir online!</h3>
+                    <p class="lead">
+                        Treten Sie mit uns in Kontakt, um mehr über unsere
+                        Tennisschule und unsere Programme zu erfahren. Unser
+                        Team steht Ihnen gerne zur Verfügung, um Ihre Fragen zu
+                        beantworten und Ihnen bei der Auswahl des richtigen
+                        Kurses zu helfen. Nutzen Sie unsere Kontaktinformationen
+                        unten oder besuchen Sie uns persönlich, um mehr zu
+                        erfahren und Teil unserer Tennisgemeinschaft zu werden.
+                    </p>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <div class="contact_form">
+                            <div id="message"></div>
+                            <form
+                                id="contactform"
+                                class=""
+                                name="contactform"
+                                method="post"
+                            >
+                                <div class="row row-fluid">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="first_name"
+                                            id="first_name"
+                                            class="form-control"
+                                            placeholder="First Name"
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="last_name"
+                                            id="last_name"
+                                            class="form-control"
+                                            placeholder="Last Name"
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            id="email"
+                                            class="form-control"
+                                            placeholder="Your Email"
+                                        />
+                                        <div
+                                            style="
+                                                margin-bottom: 30px;
+                                                color: red;
+                                            "
+                                            id="result"
+                                        ></div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="phone"
+                                            id="phone"
+                                            class="form-control"
+                                            placeholder="Your Phone"
+                                        />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <textarea
+                                            class="form-control"
+                                            name="comments"
+                                            id="comments"
+                                            rows="6"
+                                            placeholder="Give us more details.."
+                                        ></textarea>
+                                    </div>
+                                    <div class="text-center pd">
+                                        <button
+                                            type="submit"
+                                            value="SEND"
+                                            id="submit"
+                                            class="btn btn-light btn-radius btn-brd grd1 btn-block"
+                                            onclick="sendForm()"
+                                        >
+                                            Get a Quote
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-xl-6 col-md-12 col-sm-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.748491275912!2d8.515888276376808!3d47.319251771164915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790082f5f53c507%3A0xa5a0303bc9bb24e3!2zQsO8cmdsaXN0cmFzc2UsIDgxMzQgQWRsaXN3aWwsINCo0LLQtdC50YbQsNGA0ZbRjw!5e0!3m2!1suk!2sua!4v1719480041683!5m2!1suk!2sua"
+                            width="100%"
+                            height="100%"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end section -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3 style="color: #eea412">TennisPros</h3>
+                            </div>
+                            <p>
+                                Bleiben Sie in Verbindung mit unserer
+                                Tennisschule! Erfahren Sie mehr über unsere
+                                Kurse, Veranstaltungen und Neuigkeiten. Besuchen
+                                Sie uns persönlich oder kontaktieren Sie uns
+                                online für weitere Informationen und Anfragen.
+                            </p>
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Informationen</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="index.html">Startseite</a></li>
+                                <li><a href="about.html">Über uns</a></li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Datenschutzerklärung</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Nutzungsbedingungen</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="business-model.html"
+                                        >Geschäftsmodell</a
+                                    >
+                                </li>
+                            </ul>
+                            <!-- end links -->
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Kontaktdetails</h3>
+                            </div>
+
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="mailto:tennis_pros@gmail.com"
+                                        >tennis_pros@gmail.com</a
+                                    >
+                                </li>
+                                <li>Bürglistrasse, 8134 Adliswil, Schweiz</li>
+                                <li>+41792894220</li>
+                            </ul>
+                            <!-- end links -->
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+
+        <!-- end footer -->
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="footer-distributed">
+                    <div class="footer-center">
+                        <p class="footer-company-name">
+                            Haftungsausschluss: Die Informationen auf dieser
+                            Website sind nicht als Rechtsberatung gedacht und
+                            begründen kein Mandatsverhältnis. Die hier zur
+                            Verfügung gestellten Informationen, Dokumente oder
+                            Formulare dienen nur allgemeinen Informationszwecken
+                            und sollten nicht als Rechtsberatung angesehen
+                            werden. Die Gesetze ändern sich regelmäßig; daher
+                            kann es sein, dass die Informationen auf dieser
+                            Website nicht korrekt sind. Es ist unbedingt
+                            erforderlich, dass Sie sich rechtlich beraten
+                            lassen, um Ihre Rechte und Pflichten nach geltendem
+                            Recht und unter Berücksichtigung Ihrer besonderen
+                            Umstände zu bestimmen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end copyrights -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Richtlinie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein optimales
+                    Benutzererlebnis zu bieten. Cookies sind kleine Textdateien,
+                    die auf Ihrem Gerät gespeichert werden und die
+                    Website-Funktionalität unterstützen sowie anonyme
+                    Nutzungsstatistiken liefern. Durch die Nutzung unserer
+                    Website stimmen Sie der Verwendung von Cookies gemäß unserer
+                    Cookie-Richtlinie zu.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <a href="#" id="scroll-to-top" class="dmtop global-radius"
+            ><i class="fa fa-angle-up"></i
+        ></a>
+
+        <!-- ALL JS FILES -->
+        <script src="js/all.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/custom.js"></script>
+        <script src="js/timeline.min.js"></script>
+        <script>
+            timeline(document.querySelectorAll('.timeline'), {
+                forceVerticalMode: 700,
+                mode: 'horizontal',
+                verticalStartPosition: 'left',
+                visibleItems: 4,
+            });
+        </script>
+    </body>
+</html>
