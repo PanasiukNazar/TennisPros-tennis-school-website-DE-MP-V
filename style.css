@@ -2850,9 +2850,34 @@ body.host_version .first-section .effect-1.slide-btn::after{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover !important;
 	background-position: center;
-	min-height: 300px;
+	min-height: 500px;
+    width: 100% !important;
+}
+
+.bg-1 {
+    background: url(images/banner1.jpg)no-repeat;
+}
+
+.bg-2 {
+    background: url(images/banner2.jpg)no-repeat;
+}
+
+.bg-3 {
+    background: url(images/banner3.jpg)no-repeat;
+}
+
+.bg-4 {
+    background: url(images/banner4.jpg)no-repeat;
+}
+
+.bg-5 {
+    background: url(images/banner5.jpg)no-repeat;
+}
+
+.bg-6 {
+    background: url(images/banner6.jpg)no-repeat;
 }
 
 .all-title-box h1{
@@ -3526,6 +3551,9 @@ blockquote.default {
 	overflow: hidden;
 	position: relative;
 	margin-top: 30px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
 }
 .author-bio {
     display: block;
